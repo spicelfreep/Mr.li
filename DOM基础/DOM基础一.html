@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DOM基础一</title>
+</head>
+<body>
+<h2>DOM介绍<button onclick="op();">展开</button></h2>
+<div id='box' style='display: blcok;'>
+	<p style='color:blue'>DOM及document object model 文档对象模型</p>
+	<p>针对HTML和XML文档的API</p>
+	<ul>
+	  <li>  one Document  web网页文档 </li>
+	  <li>  two Object	对象	window对象之类</li>
+	  <li>  three Model	 可理解为网页文档的树形结构</li>
+	</ul>
+	<abbr>
+		DOM有三个等级
+	</abbr>
+	<ol>
+	  <li>  one DOM1</li>
+	  <li>  two DOM2</li>
+	  <li>  three DOM3</li>
+	</ol>
+	<em style='color:red'>
+		IE中的所有DOM对象都是以COM对象的形式实现的。COM和DOM有一定的差异
+	</em>
+	<table>
+		<tr>
+			<th  colspan='3'>节点类型</th>
+		</tr>
+		<tr>
+			<th>元素节点</th>
+			<th>文本节点</th>
+			<th>属性节点</th>
+		</tr>
+		<tr>
+			<td>实质上是标签，div</td>
+			<td>实质上就是标签内的文本,content</td>
+			<td>实质上就是标签的属性，id='box'</td>
+		</tr>
+	</table>
+	<textarea cols="60" rows="7">
+	getElementsByTagName('');	获取相同元素的节点列表
+	getElementById('');		获取特定ID元素的节点
+	getElementByName('');		获取相同名称的节点列表
+	getAttribute();			获取特定元素节点的属性值
+	setAttribute();			设置特定元素节点的属性值
+	removeAttribute();		移除特定元素节点的属性
+	</textarea>
+</div>
+
+<h2>查找元素</h2>
+<h2>DOM节点</h2>
+<h2>节点操作</h2>
+</body>
+<script type="text/javascript" src="demo1.js"></script>
+<script type="text/javascript" src="d1.js"></script>
+<script type="text/javascript" src="demo2.js"></script>
+<script type="text/javascript" src="demo3.js"></script>
+<script type="text/javascript" src="demo4.js"></script>
+
+</html>
